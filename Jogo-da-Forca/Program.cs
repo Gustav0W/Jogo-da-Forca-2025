@@ -122,6 +122,7 @@
                     Console.WriteLine("-------------------------------------------------------");
                     Console.WriteLine($"Você acertou! A palavra é {palavraEscolhida}, parabéns");
                     Console.WriteLine("-------------------------------------------------------");
+                    Console.ReadLine();
                 }
 
                 jogadorErrou = quantidadeErros > 5;
@@ -131,6 +132,7 @@
                     Console.WriteLine("-------------------------------------------------------");
                     Console.WriteLine($"Você não conseguiu, a palavra era {palavraEscolhida} :( tente novamente!");
                     Console.WriteLine("-------------------------------------------------------");
+                    Console.ReadLine();
                 }
 
             } while (jogadorAcertou == false && jogadorErrou == false);
