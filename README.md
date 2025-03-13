@@ -1,28 +1,26 @@
 # Jogo da forca
 
-![](https://i.imgur.com/ehh1jfT.gif)
+![](https://i.imgur.com/IwgXDun.gif)
 
 ## Introdução
 
-É uma calculadora que consegue fazer as 4 operações matemáticas e mostrar a tabuada, incrível.
+Temos aqui um simples, mas funcional, jogo da forca!! Ele escolhe uma palavra seleta sozinho, à qual você tem que adivinhar.
+
 
 ## Funcionalidades
 
-- **Operações básicas**: Realize somas, subtrações, multiplicações, divisões e veja a tabuada de qualquer número.
-- **Suporte a decimais**: Trabalhe com números de até duas casas decimais, não arredonda.
-- **Entradas validadas**: A calculadora garante que apenas opções válidas sejam aceitas.
-- **Tratamento de divisão por zero**: A calculadora identifica e valida erros de divisão por zero.
-- **Histórico de operações**: Ela também armazena o histórico de operações!
+- **Escolha aleatória**: A palavra é escolhida de maneira aleatória dentre as que foram colocadas no programa.
+- **Preenchimento automático**: Ele preenche sozinho o espaço que você acertou as letras e o boneco na forca.
 
 ## Como Utilizar
 
 1. Clone o repositório ou baixe o código fonte.
 ```
-git clone https://github.com/Gustav0W/Calculadora-Tabajara
+git clone https://github.com/Gustav0W/Jogo-da-Forca-2025
 ```
 2. Abra o terminal ou o prompt de comando e navegue até a pasta raíz.
 ```
-cd Calculadora-Tabajara
+cd Jogo-da-Forca-2025
 ```
 3. Utilize o comando abaixo para restaurar as dependências do projeto.
 ```
@@ -40,15 +38,22 @@ dotnet run
 
 6. Você verá esse terminal:
 ```
-Console.WriteLine("=================================");
-Console.WriteLine("    Calculadora Tabajara 2025    ");
-Console.WriteLine("=================================");
-
-Console.WriteLine("1- Somar");
-Console.WriteLine("2- Subtrair");
-Console.WriteLine("3- Multiplicar");
-Console.WriteLine("4- Divisão");
-Console.WriteLine("5- Tabuada");
-Console.WriteLine("6- Histórico");
-Console.WriteLine("S- Sair");
+----------------------------------
+           Jogo da Forca
+----------------------------------
+ ________________
+ |/             |
+ |
+ |
+ |
+ |
+ |
+ |
+_|____
+----------------------------------
+Erros do jogador: 0
+----------------------------------
+Palavra escolhida: ______ (Aqui pode variar)
+----------------------------------
+Digite uma letra válida:
 ```
